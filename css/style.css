@@ -1,5 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #0f1722;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px 0;
+}
+
+#calculator {
+    background-color: #1d293a;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#screen-container {
+    margin: 0 auto 30px auto;
+    width: 258px;
+    height: 70px;
+    border: 1px solid #354357;
+    text-align: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+#upper-number, #result-number {
+    float: right;
+    color: white;
+}
+
+#result-number {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    clear: both;
+}
+
+.btn-container {
+    position: relative;
+    margin: 0 auto 15px auto;
+    width: 300px;
+    text-align: center;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #354357;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #6c63ff;
+}
+
+#ac-btn {
+    margin-left: -200px;
+}
+
+#division-btn {
+    position: absolute;
+    right: 14px;
+}
+
+#zero-btn, #equals-btn {
+    width: 120px;
+}
+
+#ac-btn, #division-btn, #minus-btn, #plus-btn, #equals-btn, #multiplication-btn, #zero-btn {
+    font-weight: 300;
+    font-size: 20px;
 }
